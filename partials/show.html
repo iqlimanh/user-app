@@ -1,0 +1,28 @@
+<div class="panel panel-default" ng-init="showData()">
+	<div class="panel-heading">
+	  <p class="panel-title"> Employee's Details Information </p>
+	</div>
+	<div ng-controller="settingCtrl" class="panel-body">
+		<table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp" style="margin-bottom:10px">
+  <thead>
+    <tr>
+      <th class="mdl-data-table__cell--non-numeric">Email</th>
+      <th class="mdl-data-table__cell--non-numeric">User ID</th>
+      <th class="mdl-data-table__cell--non-numeric">Username</th>
+      <th class="mdl-data-table__cell--non-numeric">Staff ID</th>
+      <th class="mdl-data-table__cell--non-numeric">ID</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="mdl-data-table__cell--non-numeric">{{x.email}}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{x.user_id}}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{x.username}}</td>
+      <td class="mdl-data-table__cell--non-numeric">{{x.staff_id}}</td>
+      <td>{{x.uid}}</td>
+    </tr>
+      </tbody>
+</table>
+ <a href="#/setting" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent"> Close</a>		
+    <div>
+<div>
